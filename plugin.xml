@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.dispatcher.MyService" version="0.0.1">
+        id="com.dispatcher.MyService" version="0.0.2">
     <name>MyService</name>
     <description>Dispatcher Background Service</description>
     <license>See docs</license>
@@ -16,5 +16,7 @@
         </config-file>
         <source-file src="src/android/libs/backgroundserviceplugin-3.1.0.jar" target-dir="libs"  />
         <source-file src="src/android/com/dispatcher/MyService.java" target-dir="src/com/dispatcher"  />
+    </platform>
+    <platform name="ios">
     </platform>
 </plugin>
