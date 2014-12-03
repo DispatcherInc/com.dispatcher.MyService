@@ -1,0 +1,14 @@
+{
+    "version": "0.0.1",
+    "name": "com.dispatcher.MyService",
+    "cordova_name": "MyService",
+    "description": "Dispatcher Background Service for android",
+    "license": "See docs",
+    "keywords": [
+        "dispatcher"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": []
+}
